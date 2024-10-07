@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <!-- 노르웨이 날씨 정보 -->
+    <TextView
+        android:id="@+id/norwayTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Norway Temp: --°C"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/norwayWeatherIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <!-- 한국 날씨 정보 -->
+    <TextView
+        android:id="@+id/koreaTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Korea Temp: --°C"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/koreaWeatherIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="light_blue">#FFD727</color> <!-- 노르웨이 섹션 배경색 -->
+    <color name="light_gray">#98ED3E</color> <!-- 한국 섹션 배경색 -->
+</resources>
